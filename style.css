@@ -1,0 +1,229 @@
+/* Basic Reset */
+body {
+    font-family: Arial, sans-serif;
+    color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #37517e;
+    font-weight: bold;
+}
+.text-white, .text-white h1, .text-white h2, .text-white h3, .text-white h4, .text-white h5, .text-white h6 {
+    color: white !important;
+}
+
+/* Navbar */
+.navbar-brand {
+    font-size: 26px;
+    color: #37517e !important;
+}
+.nav-link {
+    color: #555;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: #198754;
+}
+
+/* Section Header (Dùng chung cho About, Services, Team, v.v) */
+.section-header {
+    text-align: center;
+    position: relative;
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.section-header h2 {
+    font-size: 32px;
+    position: relative;
+    z-index: 2;
+}
+.bg-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px; 
+    color: #f1f6fe; 
+    z-index: 1; 
+}
+.section-header p {
+    color: #6c757d;
+}
+
+/* Hero Section */
+.hero-title {
+    font-size: 40px;
+}
+.hero-text {
+    font-size: 18px;
+}
+
+/* Buttons */
+.btn-get-started {
+    background-color: #198754;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.btn-get-started:hover {
+    background-color: #157347;
+    color: white;
+}
+.btn-watch-video {
+    color: #444;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-watch-video i {
+    color: #198754;
+    font-size: 30px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.btn-watch-video span {
+    vertical-align: middle;
+}
+
+/* Feature Boxes */
+.feature-box {
+    background-color: #f8f9fa; 
+    border-radius: 8px;
+    padding: 25px; 
+    height: 100%;  
+}
+.feature-icon {
+    color: #198754;
+    font-size: 36px;
+    display: block;
+    margin-bottom: 10px;
+}
+.feature-box p {
+    color: #6c757d;    
+}
+
+/* About Content */
+.about-content h3 {
+    font-size: 26px;
+}
+.about-content-italic {
+    font-style: italic;
+    color: #444;
+}
+.about-list {
+    list-style: none; /* Bỏ chấm tròn */
+    padding-left: 0;
+}
+.about-list li {
+    margin-bottom: 15px;
+}
+.about-icon {
+    color: #198754; 
+    font-size: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Stats Section */
+.stats-section {
+    padding: 60px 0;
+}
+.stat-number {
+    font-size: 40px;
+    font-weight: bold;
+    color: #198754;
+    display: block;
+}
+.stat-text {
+    color: #6c757d;
+}
+
+/* Services Section */
+.services-section {
+    background-color: #f8f9fa; 
+    padding: 60px 0;
+}
+.service-box {
+    background-color: white; 
+    padding: 30px;
+    border-radius: 8px;
+    height: 100%;
+    border: 1px solid #eee; 
+}
+.service-icon {
+    display: inline-block;
+    background-color: #198754; 
+    color: white; 
+    width: 60px;
+    height: 60px;
+    line-height: 60px; 
+    border-radius: 8px; 
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.service-box p {
+    color: #555;
+    font-size: 14px; 
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    padding: 60px 0;
+}
+.portfolio-filters {
+    margin-bottom: 30px;
+}
+.portfolio-filters span {
+    display: inline-block;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+    margin: 0 15px;
+}
+.portfolio-section img {
+    width: 100%;
+}
+
+/* Contact Icon */
+.contact-icon {
+    width: 45px; 
+    height: 45px; 
+    background-color: #e8f5ed; 
+    color: #198754; 
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+/* Footer Section */
+.footer-links {
+    list-style: none;
+    padding-left: 0;
+}
+.footer-links li {
+    margin-bottom: 12px;
+}
+.footer-links i {
+    color: #198754;
+    margin-right: 8px;
+    font-size: 14px;
+}
+.footer-links a {
+    color: #555;
+    text-decoration: none;
+}
+.social-links a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    color: #444;
+    margin-right: 5px;
+    font-size: 16px;
+    text-decoration: none;
+}
